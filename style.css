@@ -266,7 +266,7 @@ body .section-hero {
   -webkit-box-pack: center;
   -ms-flex-pack: center;
   justify-content: center;
-  background-image: url("https://vfitclub.netlify.app/image/hero-background.webp");
+  background-image: url("hero-img.png");
   -webkit-backdrop-filter: blur(10px);
   backdrop-filter: blur(10px);
   background-size: cover;
@@ -274,8 +274,7 @@ body .section-hero {
 
 @media only screen and (max-width: 50em) {
   body .section-hero {
-    background-image: url("https://vfitclub.netlify.app/image/hero-image.png"),
-      url("https://vfitclub.netlify.app/image/hero-background.webp");
+    background-image: url("hero-img.png");
     background-position: bottom, center;
     background-size: cover;
     background-repeat: no-repeat;
